@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function goBack() {
+window.history.back()
+}
+</script>
+<style>
+
+
+body {
+	font-family:Verdana;
+	font-size: 16px;
+	margin-left:400px;
+	margin-right:400px;
+	background-color:#ECECEC;
+}
+
+h1
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:40px;
+}
+
+hr
+{
+	border-width:3px;
+	border-color:black;
+}
+
+a.nav:link, a.nav:visited
+{
+	display:block;
+	font-weight:200px;
+	color:#f1f1f1;
+	background-color:#005FE0;
+	width:31%;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:20px;
+	float:left;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+}
+
+a.nav:hover ,a.nav:active
+{
+	background-color:black;
+	color:#f1f1f1;
+	font-family:"Franklin Gothic Medium";
+}
+
+table td, th
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-collapse:collapse;
+	text-align:center;
+	font-family:"Tahoma";
+}
+
+th
+{
+	font-size:30px;
+	text-align:center;
+}
+
+td
+{
+	font-size:20px;
+	text-align:center;
+}
+
+tr.grey
+{
+	background-color:#9F9F9F;
+}
+
+table
+{
+	border-collapse:collapse;
+}
+	
+
+	button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+		button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+		height: 30px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+</style>
+</head>
+<body>
+
+<center><h1>List Of Basic HTML Tags</h1></center>
+<center>
+<hr>
+<ul><a class="nav" href="1 Homepage.html">Home</a></ul>
+<ul><a class="nav" href="2 Tutorials Page.html">Tutorials</a></ul>
+<ul><a class="nav" href="3 Basic HTML Tags.html">Basic HTML Tags List</a></ul>
+</center>
+<br>
+<br>
+<br>
+
+<hr>
+	
+	<button class="styled" onclick="goBack()">Go Back</button>
+
+
+<h2><b>NOTE:</b></h2><h3> Some of the following tags may not have a closing tag because they simply do not need one.</h3>
+
+<center><table>
+
+<tr>
+<th>Opening Tag</th>
+<th>Closing Tag</th>
+<th>Description</th>
+</tr>
+
+<tr class="grey">
+<td>&lt;DOCTYPE html&gt;</td>
+<td>-----</td>
+<td>Specifies what type of document you are using.</td>
+</tr>
+	
+<tr>
+<td>&lt;html&gt;</td>
+<td>&lt;/html&gt;</td>
+<td>Specifies that you are using an HTML document.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;head&gt;</td>
+<td>&lt;/head&gt;</td>
+<td>Information about a document.</td>
+</tr>
+	
+<tr>
+<td>&lt;style&gt;</td>
+<td>&lt;/style&gt;</td>
+<td>Used to introduce CSS into your code.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;body&gt;</td>
+<td>&lt;/body&gt;</td>
+<td>Defines the body (main part) of the HTML code.</td>
+</tr>
+	
+	
+<tr>
+<td>&lt;h1&gt; to &lt;h6&gt;</td>
+<td>&lt;/h1&gt; to &lt;/h6&gt;</td>
+<td>Html heading to a page , &lt;h1&gt; is the largest in size.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;p&gt;</td>
+<td>&lt;/p&gt;</td>
+<td>Opens a paragraph which you can write in.</td>
+</tr>
+	
+<tr>
+<td>&lt;br&gt;</td>
+<td>-----</td>
+<td>Skips a line on the actual website page.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;hr&gt;</td>
+<td>-----</td>
+<td>Makes a "Horizontal Rule" or a straight line.</td>
+</tr>
+	
+<tr>
+<td>&lt;center&gt;</td>
+<td>&lt;/center&gt;</td>
+<td>Centers all text it surrounds.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;em&gt;</td>
+<td>&lt;/em&gt;</td>
+<td>Puts an "emphasis" or bolds anything it surrounds.</td>
+</tr>
+	
+<tr>
+<td>&lt;i&gt;</td>
+<td>&lt;/i&gt;</td>
+<td>Puts text in italics.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;strong&gt;</td>
+<td>&lt;/strong&gt;</td>
+<td>Makes your text "stronger" / bolds it.</td>
+</tr>
+	
+<tr>
+<td>&lt;img&gt;</td>
+<td>-----</td>
+<td>Defines / inserts an image.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;a&gt;</td>
+<td>&lt;/a&gt;</td>
+<td>Makes a link.</td>
+</tr>
+	
+<tr>
+<td>&lt;ul&gt;</td>
+<td>&lt;/ul&gt;</td>
+<td>Makes an unordered List.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;ol&gt;</td>
+<td>&lt;/ol&gt;</td>
+<td>Makes an ordered list.</td>
+</tr>
+	
+<tr>
+<td>&lt;table&gt;</td>
+<td>&lt;/table&gt;</td>
+<td>Makes an table.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;th&gt;</td>
+<td>&lt;/th&gt;</td>
+<td>Makes a table heading --- used with a &lt;table&gt; tag.</td>
+</tr>
+	
+<tr>
+<td>&lt;td&gt;</td>
+<td>&lt;/td&gt;</td>
+<td>Inserts table data --- used with a &lt;table&gt; tag.</td>
+</tr>
+	
+<tr class="grey">
+<td>&lt;tr&gt;</td>
+<td>&lt;/tr&gt;</td>
+<td>Makes a table row --- used with a &lt;table&gt; tag.</td>
+</tr>
+	
+<tr>
+<td>&lt;div&gt;</td>
+<td>&lt;/div&gt;</td>
+<td>Inserts a box / division</td>
+</tr>	
+
+</table></center>
+
+</body>
+</html>
+

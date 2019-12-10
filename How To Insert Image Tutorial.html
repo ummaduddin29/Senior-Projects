@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function goBack() {
+window.history.back()
+}
+</script>
+<style>
+
+body {
+	font-family:Verdana;
+	font-size: 16px;
+	margin-left:400px;
+	margin-right:400px;
+	background-color:#ECECEC;
+}
+
+		button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+		height: 30px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+	
+h1
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:40px;
+}
+
+hr
+{
+	border-width:3px;
+	border-color:black;
+}
+
+div {
+	border-style: solid;
+	border-color: black;
+}
+
+p.centered
+{
+	text-align:center;
+	color:black;
+	font-size:14px;
+}
+
+a.nav:link, a.nav:visited
+{
+	display:block;
+	font-weight:200px;
+	color:#f1f1f1;
+	background-color:#005FE0;
+	width:31%;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:20px;
+	float:left;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+}
+
+a.nav:hover ,a.nav:active
+{
+	background-color:black;
+	color:#f1f1f1;
+	font-family:"Franklin Gothic Medium";
+}
+
+img.zoom {
+	width:500px;
+	height:250px;
+}
+
+
+img.zoom:hover 
+{
+	width:700px;
+	height:350px;
+}
+
+b.tags
+{
+	background-color:#ECECEC;
+	color:crimson;
+}
+
+	button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+	
+	a.intext:link, a.intext:visited
+	{
+		text-decoration: underline;
+		color:#0044FF;
+	}
+	
+a.intext:hover, a.intext:active
+	{
+		color: black;
+		text-decoration: underline;
+	}
+</style>
+</head>
+<body>
+
+<center>
+<h1>How To Insert An Image?</h1>
+</center>
+    
+<center>
+<hr>
+<ul><a class="nav" href="1 Homepage.html">Home</a></ul>
+<ul><a class="nav" href="2 Tutorials Page.html">Tutorials</a></ul>
+<ul><a class="nav" href="3 Basic HTML Tags.html">Basic HTML Tags List</a></ul>
+</center>
+<br>
+<br>
+<br>
+
+<hr>
+	<button class="styled" onclick="goBack()">Go Back</button>
+    
+<h3>In this brief tutorial, you will learn to insert an image.</h3>
+
+<p>As you might have already seen on the <a class="intext" href="3 Basic HTML Tags.html">Basic HTML Tags</a> page, to insert an image we need to use the <b class="tags"> &lt;img&gt;</b> tag.</p>
+    
+ <center><img src="Insert Image Original Code.PNG"></center>
+<p>This is what the image tag looks like when its used. You can later go in and add <b class="tags">width="x-width"</b> and a <b class="tags"> height="y-height"</b> elements before the closing brace (>) to resize your image. You can also add some alternative text for visually impaired persons and a screen reader will read it out to the person with a <b class="tags">alt="alternative text here"</b> element. </p>
+
+<center><img src="Insert Image Width and height.PNG"></center>
+<p>Heres the image for setting the width and height of the image.</p>
+
+<center><img src="Insert Image Alt Text.PNG"></center>
+<p>Heres the image for setting up some alternative text of the image.</p>
+    
+    
+ 
+</body>
+</html>

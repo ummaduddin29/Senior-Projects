@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function goBack() {
+window.history.back()
+}
+</script>
+<style>
+
+body {
+	font-family:Verdana;
+	font-size: 16px;
+	margin-left:400px;
+	margin-right:400px;
+	background-color:#ECECEC;
+}
+
+h1
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:40px;
+}
+
+hr
+{
+	border-width:3px;
+	border-color:black;
+}
+
+div {
+	border-style: solid;
+	border-color: black;
+}
+
+p.centered
+{
+	text-align:center;
+	color:black;
+	font-size:14px;
+}
+
+a.nav:link, a.nav:visited
+{
+	display:block;
+	font-weight:200px;
+	color:#f1f1f1;
+	background-color:#005FE0;
+	width:31%;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:20px;
+	float:left;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+}
+
+a.nav:hover ,a.nav:active
+{
+	background-color:black;
+	color:#f1f1f1;
+	font-family:"Franklin Gothic Medium";
+}
+
+img.zoom {
+	width:500px;
+	height:250px;
+}
+
+
+img.zoom:hover 
+{
+	width:700px;
+	height:350px;
+}
+
+b.tags
+{
+	background-color:#ECECEC;
+	color:crimson;
+}
+
+	button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+	
+		button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+		height: 30px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+	
+	table td, th
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-collapse:collapse;
+	text-align:center;
+	font-family:"Tahoma";
+}
+
+th
+{
+	font-size:20px;
+	text-align:center;
+}
+
+td
+{
+	font-size:15px;
+	text-align:center;
+}
+	
+	a.intext:link, a.intext:visited
+	{
+		text-decoration: underline;
+		color:#0044FF;
+	}
+	
+a.intext:hover, a.intext:active
+	{
+		color: black;
+		text-decoration: underline;
+	}
+	
+	</style>
+	</head>
+	<body>
+
+	<center>
+	<h1>How To Make A Table / Chart?</h1>
+	</center>
+    
+	<center>
+	<hr>
+	<ul><a class="nav" href="1 Homepage.html">Home</a></ul>
+	<ul><a class="nav" href="2 Tutorials Page.html">Tutorials</a></ul>
+	<ul><a class="nav" href="3 Basic HTML Tags.html">Basic HTML Tags List</a></ul>
+	</center>
+	<br>
+	<br>
+	<br>
+
+	<hr>
+	<button class="styled" onclick="goBack()">Go Back</button>
+	
+	<p>In this tutorial, you will learn to make a table with columns and rows.</p>
+	
+	<p>You must understand the <b class="tags">&lt;th&gt;</b>,<b class="tags">&lt;td&gt;</b> ,<b class="tags">&lt;table&gt;</b> and <b class="tags">&lt;tr&gt;</b> tags.</p>
+	
+	<p>The <b class="tags">&lt;table&gt;</b> tag is the base tag for a table. Everything inside the table is sorrounded within this tag and its closing tag :<b class="tags">&lt;/table&gt;</b></p>
+	
+	<p>The <b class="tags">&lt;th&gt;</b> refers to a table heading this is used to give headings to a table and determines how many columns you have. The more <b class="tags">&lt;th&gt;</b> means more columns. <b class="tags">&lt;th&gt;</b> also has a closing tag which is:<b class="tags">&lt;/th&gt;</b></p>
+	
+	<p>The <b class="tags">&lt;td&gt;</b> tag refers to table data these are usually sorrounded by the <b class="tags">&lt;tr&gt;</b> tags because this is the "data" that goes in the columns / rows. <b class="tags">&lt;td&gt;</b> also has a closing tag which is: <b class="tags">&lt;/td&gt;</b></p>
+	
+	<p>The <b class="tags">&lt;tr&gt;</b> tag also has a closing tag which is: <b class="tags">&lt;/tr&gt;</b> This tag refers to a table row. The more of these tags means more rows in the table. These tags sorround the <b class="tags">&lt;td&gt;</b> tags.</p>
+	
+	<p>Here I will make a simple table with 3 columns and 3 rows:</p>
+	
+	<center>
+	<table>
+	<th>Column 1 & Row 1</th>
+	<th>Column 2 & Row 1</th>
+	<th>Column 3 & Row 1</th>
+		
+	<tr>
+	<td>Row 2</td>
+	<td>Row 2</td>
+	<td>Row 2</td>
+	</tr>
+		
+	<tr>
+	<td>Row 3</td>
+	<td>Row 3</td>
+	<td>Row 3</td>
+	</tr>
+	
+	</table>
+	</center>
+	
+	<center>
+	<p>Here's the HTML for this exact table:</p>
+	<img src="Table Tutorial Code.PNG" alt="HTML">
+	
+	<p>And heres the CSS:</p>
+	<img src="Table Tutorial Code CSS.PNG" alt="CSS">
+	</center>
+	
+	<p>In the CSS part you can set the background color of each individual row like the table on the <a class="intext" href="3 Basic HTML Tags.html">HTML Tags List</a> page. This makes your table look more appealing and can make your website have a better look to it overall.</p>
+	
+	</body>
+    </html>

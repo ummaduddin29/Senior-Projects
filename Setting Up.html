@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function goBack() {
+window.history.back()
+}
+</script>
+<style>
+
+
+body {
+	font-family:Verdana;
+	font-size: 16px;
+	margin-left:400px;
+	margin-right:400px;
+	background-color:#ECECEC;
+}
+	
+		button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+		height: 30px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+	
+
+h1 {
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 40px;
+}
+
+div {
+	border-style: solid;
+	border-color: black;
+}
+
+p.centered
+{
+	text-align:center;
+	color:black;
+	font-size:14px;
+}
+
+hr
+{
+	border-width:3px;
+	border-color:black;
+}
+
+a.nav:link, a.nav:visited
+{
+	display:block;
+	font-weight:200px;
+	color:#f1f1f1;
+	background-color:#005FE0;
+	width:31%;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:20px;
+	float:left;
+	border-style:solid;
+	border-color:black;
+	border-width:3px;
+}
+
+a.nav:hover ,a.nav:active
+{
+	background-color:black;
+	color:#f1f1f1;
+	font-family:"Franklin Gothic Medium";
+}
+
+img.zoom {
+	width:500px;
+	height:250px;
+}
+
+
+img.zoom:hover 
+{
+	width:700px;
+	height:350px;
+}
+
+b.tags
+{
+	background-color:#ECECEC;
+	color:crimson;
+}
+	
+img.border
+{
+		border-style: solid;
+		border-width: 2px;
+		border-collapse: collapse;
+		border-color: black;
+}
+	
+a.intext:link, a.intext:visited
+{
+		text-decoration: underline;
+		color:#0044FF;
+}
+	
+a.intext:hover, a.intext:active
+{
+		color: black;
+		text-decoration: underline;
+}
+	
+	button.styled
+	{
+		background-color: #005FE0;
+		color:#f1f1f1;
+		width: 200px;
+	}
+	
+	
+	button.styled:hover
+	{
+		background-color:black;
+	    color:#f1f1f1;
+		width: 200px;
+	}
+</style>
+</head>
+<body>
+	
+<h1>Setting Up An HTML Document</h1>
+	
+<center>
+<hr>
+<ul><a class="nav" href="1 Homepage.html">Home</a></ul>
+<ul><a class="nav" href="2 Tutorials Page.html">Tutorials</a></ul>
+<ul><a class="nav" href="3 Basic HTML Tags.html">Basic HTML Tags List</a></ul>
+</center>
+<br>
+<br>
+<br>
+
+<hr>
+	
+	<button class="styled" onclick="goBack()">Go Back</button>
+	
+	
+<h3>Setting up your page correctly is the first and one of the most important steps in starting to build your website. If you don't setup your page correctly, then you might have to start over, or might take a long time to find the error and fix it. This is exactly why this tutorial is here: To Help You Setup Your Page</h3>
+	
+	<br>
+	
+<p>You might have already seen this image but this image gives you a good idea of what your starting point should look like:</p>
+	
+	<center><img class="zoom" src="Screenshot.jpg"></center>
+	
+<p>As you can see, you must ALWAYS start your document with an <b class="tags"> &lt;DOCTYPE html&gt; </b> declaration. This should then be followed by an <b class="tags"> &lt;html&gt;</b> and then in most cases a <b class="tags"> &lt;body&gt; </b> tag, which starts the visible part of your website. </p>
+	
+<p>Just like you opened your document, is the exact way you should be ending your document. In the beginning the order was: <b class="tags"> &lt;DOCTYPE html&gt; </b> , <b class="tags"> &lt;html&gt;</b> , and <b class="tags"> &lt;body&gt; </b> but now since we are on the end the order reveses and become: <b class="tags"> &lt;body&gt; </b> , <b class="tags"> &lt;html&gt;</b> , and <b>NO</b> <b class="tags"> &lt;DOCTYPE html&gt; </b> tag.</p>
+	
+<h3>Here's an example of the ending and beginning of an HTML document:</h3>
+	
+<center><img class="border" src="Setting Up Image.PNG"></center>
+	
+
+<p>Hopefully, this tutorial has taught you important information about setting up an HTML document. There are more tutorials on the <a href="2 Tutorials Page.html">Tutorials page</a> on how to further increase your knowledge of HTML.</p>
+	
+</body>
+</html>
